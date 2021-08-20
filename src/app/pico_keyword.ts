@@ -1,0 +1,1 @@
+export const RHINO_CLOCK_64 = "https://official-joke-api.appspot.com/jokes/programming/random";

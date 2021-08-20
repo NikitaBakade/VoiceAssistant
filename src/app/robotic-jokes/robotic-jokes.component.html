@@ -1,0 +1,13 @@
+<div class="robo">
+    <div class="container">
+        <div class="col-md-12">
+            <img src="/assets/images/robot-cute.gif" alt=""><br>
+            <button type="button" class="btn btn-primary" (click)="randomClick()">TELL ME A JOKE</button>
+            <div class="response" *ngFor="let jokes of apiResponse">
+                <p class="setup">{{jokes.setup}}</p>
+                <p class="punchline">{{jokes.punchline}}</p>
+            </div>
+        </div>
+        <!-- {{ apiResponse | json }} -->
+    </div>
+</div>
